@@ -15,6 +15,7 @@
 		39284C0226F237AB004EB4F7 /* jinseiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39284C0126F237AB004EB4F7 /* jinseiUITests.swift */; };
 		39284C1C26F25C51004EB4F7 /* jinsei1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39284C1A26F25C51004EB4F7 /* jinsei1.png */; };
 		39284C1D26F25C51004EB4F7 /* jinsei2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39284C1B26F25C51004EB4F7 /* jinsei2.png */; };
+		39284C1F26F26519004EB4F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 39284C1E26F26519004EB4F7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		39284C0326F237AB004EB4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39284C1A26F25C51004EB4F7 /* jinsei1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinsei1.png; sourceTree = "<group>"; };
 		39284C1B26F25C51004EB4F7 /* jinsei2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinsei2.png; sourceTree = "<group>"; };
+		39284C1E26F26519004EB4F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		39284C2026F2673C004EB4F7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		39284BD726F237A8004EB4F7 = {
 			isa = PBXGroup;
 			children = (
+				39284C1E26F26519004EB4F7 /* README.md */,
+				39284C2026F2673C004EB4F7 /* LICENSE.md */,
 				39284BE226F237A8004EB4F7 /* jinsei */,
 				39284BF526F237AB004EB4F7 /* jinseiTests */,
 				39284C0026F237AB004EB4F7 /* jinseiUITests */,
@@ -243,6 +248,7 @@
 			files = (
 				39284C1C26F25C51004EB4F7 /* jinsei1.png in Resources */,
 				39284BE826F237AA004EB4F7 /* Assets.xcassets in Resources */,
+				39284C1F26F26519004EB4F7 /* README.md in Resources */,
 				39284C1D26F25C51004EB4F7 /* jinsei2.png in Resources */,
 				39284BEB26F237AA004EB4F7 /* Main.storyboard in Resources */,
 			);
