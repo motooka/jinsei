@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import jinsei
+@testable import 人生
 
 class jinseiTests: XCTestCase {
 
@@ -21,6 +21,9 @@ class jinseiTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+		let 仲間の数 = Int.random(in: 0..<100)
+		let 充実した人生に必要な仲間の数 = 100
+		XCTAssertGreaterThan(仲間の数, 充実した人生に必要な仲間の数, "人生が充実していればテストが通る")
     }
 
     func testPerformanceExample() throws {

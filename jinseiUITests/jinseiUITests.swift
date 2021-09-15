@@ -29,6 +29,8 @@ class jinseiUITests: XCTestCase {
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+		let is容姿端麗 = false
+		XCTAssertTrue(is容姿端麗, "容姿端麗ならテストが通る")
     }
 
     func testLaunchPerformance() throws {
