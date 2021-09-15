@@ -13,6 +13,8 @@
 		39284BEB26F237AA004EB4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39284BE926F237AA004EB4F7 /* Main.storyboard */; };
 		39284BF726F237AB004EB4F7 /* jinseiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39284BF626F237AB004EB4F7 /* jinseiTests.swift */; };
 		39284C0226F237AB004EB4F7 /* jinseiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39284C0126F237AB004EB4F7 /* jinseiUITests.swift */; };
+		39284C1C26F25C51004EB4F7 /* jinsei1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39284C1A26F25C51004EB4F7 /* jinsei1.png */; };
+		39284C1D26F25C51004EB4F7 /* jinsei2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39284C1B26F25C51004EB4F7 /* jinsei2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39284BE026F237A8004EB4F7 /* jinsei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinsei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39284BE026F237A8004EB4F7 /* jinsei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = jinsei.app; path = "人生.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39284BE326F237A8004EB4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39284BE526F237A8004EB4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39284BE726F237AA004EB4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 		39284BFD26F237AB004EB4F7 /* jinseiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jinseiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39284C0126F237AB004EB4F7 /* jinseiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jinseiUITests.swift; sourceTree = "<group>"; };
 		39284C0326F237AB004EB4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39284C1A26F25C51004EB4F7 /* jinsei1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinsei1.png; sourceTree = "<group>"; };
+		39284C1B26F25C51004EB4F7 /* jinsei2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinsei2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		39284BE226F237A8004EB4F7 /* jinsei */ = {
 			isa = PBXGroup;
 			children = (
+				39284C1926F25C42004EB4F7 /* resources */,
 				39284BE326F237A8004EB4F7 /* AppDelegate.swift */,
 				39284BE526F237A8004EB4F7 /* ViewController.swift */,
 				39284BE726F237AA004EB4F7 /* Assets.xcassets */,
@@ -122,6 +127,15 @@
 				39284C0326F237AB004EB4F7 /* Info.plist */,
 			);
 			path = jinseiUITests;
+			sourceTree = "<group>";
+		};
+		39284C1926F25C42004EB4F7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				39284C1A26F25C51004EB4F7 /* jinsei1.png */,
+				39284C1B26F25C51004EB4F7 /* jinsei2.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39284C1C26F25C51004EB4F7 /* jinsei1.png in Resources */,
 				39284BE826F237AA004EB4F7 /* Assets.xcassets in Resources */,
+				39284C1D26F25C51004EB4F7 /* jinsei2.png in Resources */,
 				39284BEB26F237AA004EB4F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
