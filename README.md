@@ -6,7 +6,7 @@ Discordの画面に `人生をプレイ中` と表示する「だけ」のため
 ![example](./jinsei/resources/jinsei2.png)
 
 ## インストール方法
-[リリースのページ](https://github.com/motooka/jinsei/releases) から最新の `.dmg` ファイルをダウンロードして、マウントして、出てきたアプリを `/Applications` にコピーしてご利用下さい。
+[リリースのページ](https://github.com/motooka/jinsei/releases) から最新の `jinsei.app.zip` ファイルをダウンロードして、出てきたアプリを `/Applications` にコピーしてご利用下さい。
 
 ## 動作環境
 macOS Mojave (10.14) 以上
