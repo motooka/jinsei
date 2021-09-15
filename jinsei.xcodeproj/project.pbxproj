@@ -435,7 +435,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tmotooka.jinsei;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "人生";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -457,7 +457,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tmotooka.jinsei;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "人生";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
